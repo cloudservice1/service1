@@ -1,0 +1,196 @@
+.slider{
+    text-align: left;
+    width: 100%;
+    padding: 20px 0 5px 0;
+    background: #fff;
+    margin: 2em auto 0;
+    color: #666;
+    font-size: 22px;
+    background: #8abbd7;
+    background: -moz-radial-gradient(center, ellipse cover, #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#c5deea), color-stop(31%,#8abbd7), color-stop(100%,#066dab)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #c5deea 0%,#8abbd7 31%,#066dab 100%);
+}
+.slider-item{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slider-item .slider-content{
+    width: 400px;
+    float: left;
+    padding: 50px 0 0 50px;
+
+}
+.slider-item .slider-content h1{
+    font-size: 50px;
+    color: #333;
+}
+
+.slider-item .slider-content p{
+    line-height: 30px;
+    margin: 20px 0;
+    width: 350px;
+}
+
+.slider-item .slider-content .btn{
+    display: inline-block;
+    height: 55px;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #0c607f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0f97bb), to(#0c607f));
+    background-image: -moz-linear-gradient(top, #0f97bb, #0c607f);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 55px;
+    font-style: italic;
+    margin: 20px 15px 0 0;
+    padding: 0 20px;
+}
+.slider-item .slider-content a:hover{
+    background: -webkit-gradient(linear, left top, left bottom, from(#0c607f), to(#0f97bb));
+    background: -moz-linear-gradient(top, #0c607f, #0f97bb);
+}
+
+.slider-item .slider-image{
+    float: right;
+    margin: 0 30px 0 0;
+    width: 325px;
+}
+
+.slider-item .slider-image img{
+}
+
+.slider-item .slider-content p.notice{
+    font-size: 13px;
+    color: #8C2320;
+    height: 24px;
+    line-height: 24px;
+    margin: 15px 0;
+}
+.slider-item .slider-content p.notice a{
+    color: #333333;
+}
+
+.slider-item .slider-content p.notice a:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+
+.partner{
+    height: 300px;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 2px #ccc;
+    border: 1px solid #ebca8d;
+}
+.partner h3{
+    width: 19%;
+    float: left;
+    font-size: 25px;
+    border-right: 1px solid #ebca8d;
+    background: #fd9002;
+    text-shadow: 3px 3px 3px #ccc;
+    height: 100%;
+    text-align: center;
+    color: #3c2803;
+    font-family: '微软雅黑';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 300px;
+
+}
+
+.partner ul{
+    width: 80%;
+    float: left;
+}
+
+.partner li{
+    float: left;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.partner li a{
+    color: #000;
+    display: block;
+    font-family: "微软雅黑" "黑体";
+    border: 2px solid #ededef;
+
+ }
+.partner li a:hover{
+    border: 2px solid #fd9002;
+}
+
+.partner li .partner-name{
+    height: 18px;
+    line-height: 18px;
+}
+
+.partner li.partner-more img{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+/*.content {
+    padding: 0;
+}*/
+
+/** Features **/
+.features {
+    width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    border:  1px solid #d4d4d4;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.features ul {
+    table-layout: fixed;
+    display: table;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    width: 100%;
+    display: table-cell;
+    border: solid #eee;
+    border-width: 0 1px 0 0;
+    padding: 1em 1.5em 2em 2em;
+    color: #666;
+    line-height: 1.8;
+    width:33.3%\9;
+}
+.features ul+ul li {
+    border-width: 1px 1px 0 0;
+}
+.features ul li.last {
+    border-right-width:0;
+}
+.features ul li h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2.0;
+}
+.features ul li h4 {
+    font-size: 16px;
+    line-height: 2.0;
+    font-weight: bold;
+}
+.features ul li p {
+    width: 88%;
+}
